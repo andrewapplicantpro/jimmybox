@@ -8,7 +8,7 @@ vagrant box for PHP Developers with IonCube Integration for professional web dev
 
 2) clone the latest version and run vagrant up
 ```bash
-git clone https://github.com/JarJarBernie/jimmybox.git .
+git clone https://github.com/andrewapplicantpro/jimmybox.git .
 vagrant up
 ```
 
