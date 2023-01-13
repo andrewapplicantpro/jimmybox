@@ -1,0 +1,9 @@
+.project
+.buildpath
+.settings/
+docs/_build/doctrees
+docs/_build/html
+composer.lock
+vendor/
+tests/fw/prj-test-admin/
+.idea/

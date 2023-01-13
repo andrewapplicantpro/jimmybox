@@ -1,0 +1,15 @@
+<form id="frm-sql-content">
+    <div class="ui segment {{ inverted }}">
+        <button id="validate-btn" class="ui button positive {{ inverted }}">
+            <i id="icon-bt-okay" class="icon check circle"></i>
+            Execute migrations
+        </button>
+        &nbsp;
+        <button id="cancel-btn" class="ui button {{ inverted }}">
+            <i id="icon-bt-cancel" class="icon remove circle outline"></i>
+            Cancel
+        </button>
+    </div>
+    <textarea data-editor data-gutter="true" name='sql' id="sql" rows="20">{{sql}}</textarea>
+</form>
+{{ script_foot | raw }}
